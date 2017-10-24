@@ -8,24 +8,24 @@
 
 <body>
 
-<!--// */Top header*/-->
+<!--Top header-->
 <header>
     <hr>
     <h2>Portfolio of Medusa</h2>
     <hr>
 </header>
 
-<!--// */Main section start*/-->
+<!--Main section start-->
 <main>
 
-    <!--// */Article*/-->
+    <!--Article-->
     <article>
 
         <section>
             <header>
                 <h3>[About]</h3>
             </header>
-            <p>I am me and if you ask me that's true. If you ask some one else it might be false.</p>
+            <p>I am currently into Star Trek, the series, old and new.</p>
         </section>
 
         <section>
@@ -56,9 +56,8 @@
     </article>
 
 </main>
-<!--// */Main section end*/-->
 
-<!--// */Links section*/-->
+<!--Links section-->
 <section>
     <header>
         <h3>[Links]</h3>
@@ -70,7 +69,7 @@
     </ul>
 </section>
 
-<!--// */Images section*/-->
+<!--Images section-->
 <section>
     <header>
         <h3>[Images]</h3>
@@ -89,11 +88,30 @@
     </figure>
 </section>
 
-<form action="/action_page.php">
-    First name: <input type="text" name="fname"><br>
-    Last name: <input type="text" name="lname"><br>
+<hr>
+
+<!--Comment section-->
+<Section>
+    <h3>[Comments]</h3>
+    <p>Medusa 2017-10-24
+        -"Awesome website, good job!"</p>
+    <p>Veldriss 2017-10-22
+        -"I like your list of skills!"</p>
+</Section>
+
+<hr>
+
+<!--Form input section-->
+<form>
+    Name:<input type="text" required minlength="3" pattern="[a-zA-Z ]+" placeholder="Enter nickname"><br>
+    Mail:<input type="email" required placeholder="Enter email"><br>
+    <textarea type="text" name="comment" required minlength="10" maxlength="255" placeholder="Enter comment"></textarea>
     <input type="submit" value="Submit">
 </form>
+
+<footer>
+    <p>By Medusa</p>
+</footer>
 
 </body>
 </html>
